@@ -8,9 +8,15 @@ header{
 
 }
 
+.logo{
+    height: 3.8rem;
+
+}
+
 .text-intro{
-    padding-top: 300px;
+    padding-top: 400px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .preTxt{
@@ -41,6 +47,12 @@ h1{
     font-size: 22px;
     font-weight: 700;
     
+}
+
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid;
+    border-width: 0.5px ;
 }
 
 /*A propos*/
