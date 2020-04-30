@@ -4,4 +4,9 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     $(this).ekkoLightbox();
   });
 
-  
+  //carousel de texte
+
+  $('.carousel').carousel({
+    interval: 2500,
+    pause: 'null'
+  })
