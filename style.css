@@ -132,6 +132,7 @@ h1{
     width: 500px;
     height: 300px;
     margin: auto;
+   
 }
 
 /*vitesse de rotation*/
@@ -150,14 +151,41 @@ h1{
 .devant{
     z-index: 2;
     transform: rotateY(0deg);
-    background: black;
-    color: bisque;
-    padding: 10px;
 }
 
 .arriere{
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    
 }
 
+.cRecto{
+    height: 300px;
+    width: 500px;
+    border: solid 1px;
+}
 
+.cVecto{
+    height: 300px;
+    width: 500px;
+    border: solid 1px;
+}
 
+@media(max-width: 720px){
+
+   s
+
+    .container2, .devant, .arriere {
+       margin-left: 7px;   
+    }
+
+    .cRecto{
+        height: 200px;
+        width: 350px;      
+    }
+    
+    .cVecto{
+        height: 200px;
+        width: 350px;               
+    }
+
+}
