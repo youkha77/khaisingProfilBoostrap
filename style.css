@@ -123,17 +123,41 @@ h1{
       font-family: 'kaushan script';
   }
 
-  #cartes{
-      padding: 50px 0 100px 0;
-  }
+/* basculer le volet lorsque vous le survoler*/
+.container2:hover .main{
+    transform: rotateY(180deg);
+}
 
-  .cardsFront, .cardsBack{
-      width: 500px;
-      height: 300px;
-      margin: 30px auto;
-      position: relative;
-      transition: 0.2s ease-in;
-      box-shadow: 0px 10px 30px black;
-      background: transparent;
-      backface-visibility: hidden; 
-  }
+.container2, .devant, .arriere {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+/*vitesse de rotation*/
+.main{
+    transition: .6s;
+    transform-style: preserve-3d;
+}
+
+.devant, .arriere{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.devant{
+    z-index: 2;
+    transform: rotateY(0deg);
+    background: black;
+    color: bisque;
+    padding: 10px;
+}
+
+.arriere{
+    transform: rotateY(180deg)
+}
+
+
+
