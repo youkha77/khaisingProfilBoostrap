@@ -1,0 +1,22 @@
+/*header*/
+
+.text-intro{
+    padding-top: 550px;     
+}
+
+/* carte visite*/
+
+.cRecto{
+    height: 150px;
+    width: 250px;
+    margin-left: 25%;
+      
+}
+
+
+.cVecto{
+    height: 150px;
+    width: 250px; 
+    margin-left: 25%;
+                     
+}

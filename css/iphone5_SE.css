@@ -1,0 +1,30 @@
+
+/*header*/
+
+.text-intro{
+    padding-top: 330px;     
+}
+
+.preTxt{
+    font-size: 1.5rem;     
+}
+
+h1{
+    font-size: 2.5rem;        
+    font-weight: 700;
+}
+
+/* carte visite*/
+
+.cRecto{
+    height: 150px;
+    width: 280px;
+    margin-left: 12px;      
+}
+
+
+.cVecto{
+    height: 150px;
+    width: 280px; 
+    margin-left: 12px;                  
+}
