@@ -115,6 +115,11 @@ h1{
 
   /* Cartes */
 
+#prix{
+    padding-bottom: 100px;
+}
+
+
   .offreH{
       font-size: 70px;
       padding-top: 80px;
@@ -130,7 +135,7 @@ h1{
 .container2, .devant, .arriere {
     width: 500px;
     height: 300px;
-    margin: auto;
+    margin: auto;    
    
 }
 
@@ -138,6 +143,7 @@ h1{
 .main{
     transition: .6s;
     transform-style: preserve-3d;
+    
 }
 
 .devant, .arriere{
@@ -161,6 +167,7 @@ h1{
     height: 300px;
     width: 500px;
     border: solid 1px;
+    
 }
 
 .cVecto{
@@ -168,6 +175,16 @@ h1{
     width: 500px;
     border: solid 1px;
 }
+
+/* progresse section */
+
+#progress{
+    border-top: 1px dashed #000;
+    border-bottom: 1px solid #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 
 @media(max-width: 720px){
 
@@ -190,6 +207,9 @@ h1{
         font-weight: 700;
     }
 
+    #prix{
+        padding-bottom: 0;
+    }
 
     .container2, .devant, .arriere {
        margin-left: 7px;
