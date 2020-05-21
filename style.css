@@ -167,6 +167,7 @@ h1{
     height: 300px;
     width: 500px;
     border: solid 1px;
+    box-shadow: 10px 5px 5px #000;
     
 }
 
@@ -174,16 +175,28 @@ h1{
     height: 300px;
     width: 500px;
     border: solid 1px;
+    box-shadow: 10px 5px 5px #000;
 }
 
 /* progresse section */
 
 #progress{
+    border-bottom: 1px dashed #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* clients */
+
+#clients{
     border-top: 1px dashed #000;
     border-bottom: 1px solid #000;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+
 
 
 @media(max-width: 720px){
