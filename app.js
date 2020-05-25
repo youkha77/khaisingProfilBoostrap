@@ -10,3 +10,13 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     interval: 2500,
     pause: 'null'
   })
+
+  // nav animation
+
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 30){
+      $('.navbar').addClass('opaque');
+    }else{
+      $('.navbar').removeClass('opaque');
+    }
+  })
